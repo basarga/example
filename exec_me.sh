@@ -4,5 +4,6 @@
 R='\e[0;31m'
 NC='\e[0m'
 
-echo $R"IDIOT!"$NC
-echo $R"Never run unknown scripts!!!"$NC
+clear
+echo -e $R"IDIOT!"$NC
+echo -e $R"Never run unknown scripts!!!"$NC
