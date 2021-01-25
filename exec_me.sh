@@ -1,4 +1,8 @@
 #!/bin/sh
 #Привет, здравый человек. Код ниже предназначен для доверчивых идиотов.
-echo "IDIOT!"
-echo "Never run unknown scripts!!!"
+
+R='\e[0;31m'
+NC='\e[0m'
+
+echo $R"IDIOT!"$NC
+echo $R"Never run unknown scripts!!!"$NC
